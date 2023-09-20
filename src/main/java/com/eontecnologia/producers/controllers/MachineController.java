@@ -19,6 +19,7 @@ public class MachineController {
     ResponseEntity<Void> createEvent(@RequestBody CreateMachineRequest request){
         service.createEvent(request);
         return ResponseEntity.ok().build();
+
     }
 
 }
